@@ -98,9 +98,6 @@ natural = do xs <- many1 (satisfy isDigit)
 
 ----------------------------------------------------------------             
   
---
--- MODIFIED: Main function (Part 2)
---
 main :: IO ()
 main
   = do txt <- getContents
